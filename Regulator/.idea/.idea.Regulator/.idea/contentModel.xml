@@ -4,7 +4,24 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="test.cs" t="Include" />
+        <e p="KillerScenes" t="Include">
+          <e p="test.cs" t="Include" />
+        </e>
+        <e p="Typewriter Custom Styles" t="Include">
+          <e p="Demo Scene" t="Include">
+            <e p="closedemo.cs" t="Include" />
+          </e>
+          <e p="Readme.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="TW_MultiStrings_All.cs" t="Include" />
+            <e p="TW_MultiStrings_RandomPointer.cs" t="Include" />
+            <e p="TW_MultiStrings_RandomText.cs" t="Include" />
+            <e p="TW_MultiStrings_Regular.cs" t="Include" />
+            <e p="TW_RandomPointer.cs" t="Include" />
+            <e p="TW_RandomText.cs" t="Include" />
+            <e p="TW_Regular.cs" t="Include" />
+          </e>
+        </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />

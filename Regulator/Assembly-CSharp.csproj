@@ -55,12 +55,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\test.cs" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/crkjk/Desktop/Git/Regulator/Regulator/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
+    <Compile Include="Assets\KillerScenes\test.cs" />
+    <Compile Include="Assets\Typewriter Custom Styles\Demo Scene\closedemo.cs" />
+    <Compile Include="Assets\Typewriter Custom Styles\Scripts\TW_MultiStrings_All.cs" />
+    <Compile Include="Assets\Typewriter Custom Styles\Scripts\TW_MultiStrings_RandomPointer.cs" />
+    <Compile Include="Assets\Typewriter Custom Styles\Scripts\TW_MultiStrings_RandomText.cs" />
+    <Compile Include="Assets\Typewriter Custom Styles\Scripts\TW_MultiStrings_Regular.cs" />
+    <Compile Include="Assets\Typewriter Custom Styles\Scripts\TW_RandomPointer.cs" />
+    <Compile Include="Assets\Typewriter Custom Styles\Scripts\TW_RandomText.cs" />
+    <Compile Include="Assets\Typewriter Custom Styles\Scripts\TW_Regular.cs" />
+    <None Include="Assets\Typewriter Custom Styles\Readme.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/crkjk/Desktop/Git/Regulator/Regulator/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>/Users/crkjk/Desktop/Git/Regulator/Regulator/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
