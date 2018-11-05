@@ -4,22 +4,63 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="KillerScenes" t="Include">
-          <e p="test.cs" t="Include" />
-        </e>
-        <e p="Typewriter Custom Styles" t="Include">
-          <e p="Demo Scene" t="Include">
-            <e p="closedemo.cs" t="Include" />
+        <e p="lib" t="Include">
+          <e p="Json" t="Include">
+            <e p="BaseJson.cs" t="Include" />
+            <e p="JsonPlayer.cs" t="Include" />
+            <e p="Player.cs" t="Include" />
           </e>
-          <e p="Readme.txt" t="Include" />
-          <e p="Scripts" t="Include">
-            <e p="TW_MultiStrings_All.cs" t="Include" />
-            <e p="TW_MultiStrings_RandomPointer.cs" t="Include" />
-            <e p="TW_MultiStrings_RandomText.cs" t="Include" />
-            <e p="TW_MultiStrings_Regular.cs" t="Include" />
-            <e p="TW_RandomPointer.cs" t="Include" />
-            <e p="TW_RandomText.cs" t="Include" />
-            <e p="TW_Regular.cs" t="Include" />
+          <e p="Typewriter Custom Styles" t="Include">
+            <e p="Demo Scene" t="Include">
+              <e p="closedemo.cs" t="Include" />
+            </e>
+            <e p="Readme.txt" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="TW_MultiStrings_All.cs" t="Include" />
+              <e p="TW_MultiStrings_RandomPointer.cs" t="Include" />
+              <e p="TW_MultiStrings_RandomText.cs" t="Include" />
+              <e p="TW_MultiStrings_Regular.cs" t="Include" />
+              <e p="TW_RandomPointer.cs" t="Include" />
+              <e p="TW_RandomText.cs" t="Include" />
+              <e p="TW_Regular.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Virtual Joystick Pack" t="Include">
+            <e p="Examples" t="Include">
+              <e p="2D Example" t="Include">
+                <e p="Player2DExample.cs" t="Include" />
+              </e>
+              <e p="3D Example" t="Include">
+                <e p="Player3DExample.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Base" t="Include">
+                <e p="Joystick.cs" t="Include" />
+              </e>
+              <e p="Joysticks" t="Include">
+                <e p="FixedJoystick.cs" t="Include" />
+                <e p="FloatingJoystick.cs" t="Include" />
+                <e p="VariableJoystick.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="System" t="Include">
+          <e p="Controller" t="Include">
+            <e p="GameController.cs" t="Include" />
+          </e>
+          <e p="KillerScenes" t="Include">
+            <e p="test.cs" t="Include" />
+          </e>
+          <e p="Lobby" t="Include">
+            <e p="Lobby_Next.cs" t="Include" />
+          </e>
+          <e p="Opentitle" t="Include">
+            <e p="Script" t="Include">
+              <e p="OpenTitle_Next.cs" t="Include" />
+              <e p="OpenTitle_Title.cs" t="Include" />
+            </e>
           </e>
         </e>
       </e>
