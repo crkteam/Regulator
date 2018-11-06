@@ -23,12 +23,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="9863" />
+          <entry key="cs" value="9903" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="9863" />
+          <entry key="C#" value="9903" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -101,7 +101,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/System/Lobby/Lobby_Next.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -115,24 +115,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/System/KillerScenes/test.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="850">
+              <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
               <folding>
-                <marker date="1541040726934" expanded="false" signature="6:78" ph="..." />
-                <marker date="1541040726934" expanded="true" signature="113:1556" ph="{...}" />
-                <marker date="1541040726934" expanded="true" signature="276:330" ph="/* bullet只能打一次 ... */" />
-                <marker date="1541040726934" expanded="true" signature="347:483" ph="{...}" />
-                <marker date="1541040726934" expanded="true" signature="541:1114" ph="{...}" />
-                <marker date="1541040726934" expanded="true" signature="571:938" ph="{...}" />
-                <marker date="1541040726934" expanded="true" signature="626:928" ph="{...}" />
-                <marker date="1541040726934" expanded="true" signature="1159:1554" ph="{...}" />
-                <marker date="1541040726934" expanded="true" signature="1224:1400" ph="{...}" />
-                <marker date="1541040726934" expanded="true" signature="1270:1390" ph="{...}" />
-                <marker date="1541040726934" expanded="true" signature="1431:1548" ph="{...}" />
-                <marker date="1541040726934" expanded="true" signature="1477:1538" ph="{...}" />
+                <marker date="1541483426596" expanded="false" signature="6:78" ph="..." />
+                <marker date="1541483426596" expanded="true" signature="113:1416" ph="{...}" />
+                <marker date="1541483426596" expanded="true" signature="268:322" ph="/* bullet只能打一次 ... */" />
+                <marker date="1541483426596" expanded="true" signature="339:456" ph="{...}" />
+                <marker date="1541483426596" expanded="true" signature="514:708" ph="{...}" />
+                <marker date="1541483426596" expanded="true" signature="753:1148" ph="{...}" />
+                <marker date="1541483426596" expanded="true" signature="818:994" ph="{...}" />
+                <marker date="1541483426596" expanded="true" signature="864:984" ph="{...}" />
+                <marker date="1541483426596" expanded="true" signature="1025:1142" ph="{...}" />
+                <marker date="1541483426596" expanded="true" signature="1071:1132" ph="{...}" />
+                <marker date="1541483426596" expanded="true" signature="1172:1414" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -208,6 +207,7 @@
         <option value="$PROJECT_DIR$/Assets/System/Lobby/Apple.cs" />
         <option value="$PROJECT_DIR$/Assets/System/Controller/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/System/Lobby/Lobby_Next.cs" />
+        <option value="$PROJECT_DIR$/Assets/System/KillerScenes/test.cs" />
       </list>
     </option>
   </component>
@@ -305,12 +305,12 @@
       <workItem from="1540890732131" duration="7114000" />
       <workItem from="1541079323111" duration="9366000" />
       <workItem from="1541243176006" duration="2716000" />
-      <workItem from="1541250052866" duration="16275000" />
+      <workItem from="1541250052866" duration="16683000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48809000" />
+    <option name="totallyTimeSpent" value="49217000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -568,27 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/System/KillerScenes/test.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <marker date="1541040726934" expanded="false" signature="6:78" ph="..." />
-            <marker date="1541040726934" expanded="true" signature="113:1556" ph="{...}" />
-            <marker date="1541040726934" expanded="true" signature="276:330" ph="/* bullet只能打一次 ... */" />
-            <marker date="1541040726934" expanded="true" signature="347:483" ph="{...}" />
-            <marker date="1541040726934" expanded="true" signature="541:1114" ph="{...}" />
-            <marker date="1541040726934" expanded="true" signature="571:938" ph="{...}" />
-            <marker date="1541040726934" expanded="true" signature="626:928" ph="{...}" />
-            <marker date="1541040726934" expanded="true" signature="1159:1554" ph="{...}" />
-            <marker date="1541040726934" expanded="true" signature="1224:1400" ph="{...}" />
-            <marker date="1541040726934" expanded="true" signature="1270:1390" ph="{...}" />
-            <marker date="1541040726934" expanded="true" signature="1431:1548" ph="{...}" />
-            <marker date="1541040726934" expanded="true" signature="1477:1538" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/System/Controller/GameController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -628,6 +607,26 @@
             <marker date="1541427497227" expanded="true" signature="6:145" ph="..." />
             <marker date="1541427497227" expanded="true" signature="207:336" ph="{...}" />
             <marker date="1541427497227" expanded="true" signature="266:334" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/System/KillerScenes/test.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+          <folding>
+            <marker date="1541483426596" expanded="false" signature="6:78" ph="..." />
+            <marker date="1541483426596" expanded="true" signature="113:1416" ph="{...}" />
+            <marker date="1541483426596" expanded="true" signature="268:322" ph="/* bullet只能打一次 ... */" />
+            <marker date="1541483426596" expanded="true" signature="339:456" ph="{...}" />
+            <marker date="1541483426596" expanded="true" signature="514:708" ph="{...}" />
+            <marker date="1541483426596" expanded="true" signature="753:1148" ph="{...}" />
+            <marker date="1541483426596" expanded="true" signature="818:994" ph="{...}" />
+            <marker date="1541483426596" expanded="true" signature="864:984" ph="{...}" />
+            <marker date="1541483426596" expanded="true" signature="1025:1142" ph="{...}" />
+            <marker date="1541483426596" expanded="true" signature="1071:1132" ph="{...}" />
+            <marker date="1541483426596" expanded="true" signature="1172:1414" ph="{...}" />
           </folding>
         </state>
       </provider>

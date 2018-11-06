@@ -6,7 +6,7 @@ public class test : MonoBehaviour
 {
     private Canvas c;
     private float x, y;
-    private float i, bullet;
+    private float i;
     public Joystick joystick;
 
     private float speed;
@@ -20,29 +20,15 @@ public class test : MonoBehaviour
         speed = 0.1f;
         init = 0.1f;
         c = GameObject.Find("Canvas").GetComponent<Canvas>();
-        bullet++; 
     }
 
     // Update is called once per frame
     void Update()
-    {
-        if (bullet > 0)
-        {
-            if (Input.GetKey(KeyCode.Space))
-            {
-                Vector2 v = c.transform.position; // 去抓大圖的x,y軸
-                v.x += x; // 因為兩者座標不同 只能用插值來運算
-                v.y += y;
-                
-                Debug.Log("x:"+x+"y:"+y);
-                check(v.x, v.y); // 要改成 專用的判斷者 一張圖一個
-                bullet--;
-            }
-        }
+    {    
         // 移動
-        transform.Translate(new Vector2(joystick.Horizontal,joystick.Vertical));
-        y += joystick.Vertical;
-        x += joystick.Horizontal;
+        transform.Translate(new Vector2(joystick.Horizontal/2,joystick.Vertical/2));
+        y += joystick.Vertical/2;
+        x += joystick.Horizontal/2;
         
     }
 
@@ -67,4 +53,15 @@ public class test : MonoBehaviour
             }
         }
     }
+
+    public void shot()
+    {
+
+            Vector2 v = c.transform.position; // 去抓大圖的x,y軸
+            v.x += x; // 因為兩者座標不同 只能用插值來運算
+            v.y += y;
+                
+            Debug.Log("x:"+x+"y:"+y);
+            check(v.x, v.y); // 要改成 專用的判斷者 一張圖一個
+     }
 }
