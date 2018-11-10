@@ -50,6 +50,10 @@
           <e p="Controller" t="Include">
             <e p="GameController.cs" t="Include" />
           </e>
+          <e p="Dialogue" t="Include">
+            <e p="dialogue_test.cs" t="Include" />
+            <e p="DialogueController.cs" t="Include" />
+          </e>
           <e p="KillerScenes" t="Include">
             <e p="test.cs" t="Include" />
           </e>

@@ -29,7 +29,6 @@ public class test : MonoBehaviour
         transform.Translate(new Vector2(joystick.Horizontal/2,joystick.Vertical/2));
         y += joystick.Vertical/2;
         x += joystick.Horizontal/2;
-        
     }
 
     // 需更改
