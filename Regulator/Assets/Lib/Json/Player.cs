@@ -6,4 +6,5 @@ public class Player
 {
     public int lobby;
     public int stage;
+    public int dialogue;
 }

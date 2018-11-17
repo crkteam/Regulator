@@ -8,7 +8,7 @@ public class JsonPlayer : BaseJson
     {
        player = new Player();
         if (!check("MyPlayer"))
-            setAll(0,0);
+            setAll(0,0,0);
     }
 
     public int getStage()
@@ -27,6 +27,14 @@ public class JsonPlayer : BaseJson
         return player.lobby;
     }
     
+    public int getDialogue()
+    {
+        string data = load("MyPlayer");
+        player = JsonUtility.FromJson<Player>(data);
+
+        return player.dialogue;
+    }
+    
     public Player getAll()
     {
         string data = load("MyPlayer");
@@ -35,10 +43,11 @@ public class JsonPlayer : BaseJson
         return player;
     }
 
-    public void setAll(int lobby,int stage)
+    public void setAll(int lobby,int stage,int dialogue)
     {
         player.lobby = lobby;
         player.stage = stage;
+        player.dialogue = dialogue;
                 
         save(player,"MyPlayer");
     }

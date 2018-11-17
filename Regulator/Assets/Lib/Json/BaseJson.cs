@@ -26,6 +26,7 @@ public class BaseJson
     {
         try {
             StreamReader file = new StreamReader(Path.Combine(Application.absoluteURL, name));
+            file.Close();
         }catch(FileNotFoundException e) {
             Debug.Log(e.Message);
             return false;

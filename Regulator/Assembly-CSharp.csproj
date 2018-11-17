@@ -72,13 +72,14 @@
     <Compile Include="Assets\Lib\Virtual Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Lib\Virtual Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Lib\Virtual Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
-    <Compile Include="Assets\System\Controller\GameController.cs" />
-    <Compile Include="Assets\System\Dialogue\dialogue_test.cs" />
-    <Compile Include="Assets\System\Dialogue\DialogueController.cs" />
-    <Compile Include="Assets\System\KillerScenes\test.cs" />
-    <Compile Include="Assets\System\Lobby\Lobby_Next.cs" />
-    <Compile Include="Assets\System\Opentitle\Script\OpenTitle_Next.cs" />
-    <Compile Include="Assets\System\Opentitle\Script\OpenTitle_Title.cs" />
+    <Compile Include="Assets\Resources\System\Dialogue\dialogue_Controller.cs" />
+    <Compile Include="Assets\Resources\System\Dialogue\Dialogur.cs" />
+    <Compile Include="Assets\Resources\System\KillerScenes\test.cs" />
+    <Compile Include="Assets\Resources\System\Lobby\Lobby_Next.cs" />
+    <Compile Include="Assets\Resources\System\Lobby\LobbyController.cs" />
+    <Compile Include="Assets\Resources\System\Opentitle\Script\OpenTitle_Next.cs" />
+    <Compile Include="Assets\Resources\System\Opentitle\Script\OpenTitle_Title.cs" />
+    <Compile Include="Assets\Resources\System\Opentitle\Script\OpenTitleController.cs" />
     <None Include="Assets\Lib\Typewriter Custom Styles\Readme.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/crkjk/Desktop/Git/Regulator/Regulator/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

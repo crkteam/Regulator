@@ -46,24 +46,25 @@
             </e>
           </e>
         </e>
-        <e p="System" t="Include">
-          <e p="Controller" t="Include">
-            <e p="GameController.cs" t="Include" />
-          </e>
-          <e p="Dialogue" t="Include">
-            <e p="dialogue_test.cs" t="Include" />
-            <e p="DialogueController.cs" t="Include" />
-          </e>
-          <e p="KillerScenes" t="Include">
-            <e p="test.cs" t="Include" />
-          </e>
-          <e p="Lobby" t="Include">
-            <e p="Lobby_Next.cs" t="Include" />
-          </e>
-          <e p="Opentitle" t="Include">
-            <e p="Script" t="Include">
-              <e p="OpenTitle_Next.cs" t="Include" />
-              <e p="OpenTitle_Title.cs" t="Include" />
+        <e p="Resources" t="Include">
+          <e p="System" t="Include">
+            <e p="Dialogue" t="Include">
+              <e p="dialogue_Controller.cs" t="Include" />
+              <e p="Dialogur.cs" t="Include" />
+            </e>
+            <e p="KillerScenes" t="Include">
+              <e p="test.cs" t="Include" />
+            </e>
+            <e p="Lobby" t="Include">
+              <e p="Lobby_Next.cs" t="Include" />
+              <e p="LobbyController.cs" t="Include" />
+            </e>
+            <e p="Opentitle" t="Include">
+              <e p="Script" t="Include">
+                <e p="OpenTitle_Next.cs" t="Include" />
+                <e p="OpenTitle_Title.cs" t="Include" />
+                <e p="OpenTitleController.cs" t="Include" />
+              </e>
             </e>
           </e>
         </e>
