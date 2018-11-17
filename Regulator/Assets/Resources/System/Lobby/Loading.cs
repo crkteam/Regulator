@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Loading : MonoBehaviour
 {
 	private Image image;
-
+	
 	// Use this for initialization
 	void Start ()
 	{
@@ -17,8 +17,11 @@ public class Loading : MonoBehaviour
 	void openScenes()
 	{
 		//開始漸淡
-		//if(漸淡完){
-		//		GameObject.Find("Main Camera").GetComponent<LobbyController>().enabled = true;
-		//}
+		Color image = this.image.color;
+		image.a -= 0.035f;
+		this.image.color = image;
+		if(image.a<=0){
+				GameObject.Find("Main Camera").GetComponent<LobbyController>().enabled = true;
+		}
 	}
 }
