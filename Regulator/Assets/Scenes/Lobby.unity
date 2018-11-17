@@ -228,6 +228,7 @@ GameObject:
   - component: {fileID: 559847237}
   - component: {fileID: 559847236}
   - component: {fileID: 559847240}
+  - component: {fileID: 559847241}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -316,6 +317,17 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 29202155cc96c4865b9d28d0e53e1b70, type: 3}
   dialogue_space: {fileID: 569225335}
   nextStage: {fileID: 639536163}
+--- !u!114 &559847241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 559847235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce3d774c622e84928b1b5551042864b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &569225335 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1496637533839374, guid: 6d15fa6e0da3c435eb24c0920b884a32,
@@ -558,7 +570,6 @@ GameObject:
   - component: {fileID: 1197042322}
   - component: {fileID: 1197042325}
   - component: {fileID: 1197042324}
-  - component: {fileID: 1197042323}
   m_Layer: 5
   m_Name: Scenes
   m_TagString: Untagged
@@ -584,17 +595,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.00012207}
   m_SizeDelta: {x: 2560, y: 1440}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1197042323
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1197042321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce3d774c622e84928b1b5551042864b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1197042324
 MonoBehaviour:
   m_ObjectHideFlags: 0
