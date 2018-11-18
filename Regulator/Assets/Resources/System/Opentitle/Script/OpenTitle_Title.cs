@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class OpenTitle_Title : MonoBehaviour
 {
     private float time;
-    public Image image , title , GameLoge;
+    public Image image , title , GameLoge,background;
     public Text start;
     private Color buffer_color;
     private int count = 0; // 0 顯入 1 淡出 2 刪除
@@ -50,11 +50,23 @@ public class OpenTitle_Title : MonoBehaviour
         }
         else if (count == 1)
         {
+            Color back = background.color;
+           
             buffer_color.a -= 0.0075f;
             if (buffer_color.a <= 0 && Time.time > 5.5)
             {
-                this.count = 2;
-                Destroy(image.gameObject); 
+                
+                back.r += 0.003f;
+                back.g += 0.003f;
+                back.b += 0.003f;
+                background.color = back;
+                if (back.r >= 1f)
+                {
+                    this.count = 2;
+                    Destroy(image.gameObject);
+                    
+                }
+              
             }
         }
 
