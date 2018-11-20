@@ -62,7 +62,7 @@ public class LobbyController : MonoBehaviour
 
             dc.NextLine();
         }
-        else
+        else  //全部結束後出現
         {
             dialogue_space.SetActive(false);
             CancelInvoke("dialogue");
