@@ -7,6 +7,7 @@ public class BaseJson
 {
     protected void save(object data, string name)
     {
+        
         StreamWriter file = new StreamWriter(Path.Combine(Application.absoluteURL, name));
         string saveString = JsonUtility.ToJson(data);
         file.Write(saveString);
@@ -18,7 +19,6 @@ public class BaseJson
         StreamReader file = new StreamReader(Path.Combine(Application.absoluteURL, name));
         string loadJson = file.ReadToEnd();
         file.Close();
-
         return loadJson;
     }
 

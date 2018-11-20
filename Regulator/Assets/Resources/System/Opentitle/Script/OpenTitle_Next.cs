@@ -16,6 +16,7 @@ public class OpenTitle_Next : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        //重置顏色
         Color back = this.background.color;
         back.r = 1f;
         back.g = 1f;
@@ -27,19 +28,23 @@ public class OpenTitle_Next : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (!flag)
         {
+            
             Invoke("Logofade_in",0.0f);
           
         }
         else if(Input.GetMouseButtonDown(0)&&flag)
         {
+            
             InvokeRepeating("Logoflicker",0.0f,0.1f);
         }
     }
 
     void Logofade_in()
     {
+        //字幕淡入
         Color title = this.title.color;
         title.a += 0.005f;
 
@@ -56,13 +61,14 @@ public class OpenTitle_Next : MonoBehaviour
         Color back = background.color;
         title.a -= 0.075f;
         start.a -= 0.075f;
-        Debug.Log(background.color.r);
+        // 顏色漸減
         back.r -= 0.03f;
         back.g -= 0.03f;
         back.b -= 0.03f;
         background.color = back;
         this.title.color = title;
         this.start.color = start;
+     //全黑後開啟下一張scene
         if(background.color.r<=0)
             SceneManager.LoadScene("lobby");
     }

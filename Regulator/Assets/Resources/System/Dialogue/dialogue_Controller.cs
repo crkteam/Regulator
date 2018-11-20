@@ -22,7 +22,7 @@ public class dialogue_Controller : MonoBehaviour
     {
         jp = new JsonPlayer();
 
-        switch (jp.getDialogue())
+        switch (jp.getDialogue()) //讀取第幾個對話
         {
             case 0:
                 condition = '0';
@@ -44,7 +44,7 @@ public class dialogue_Controller : MonoBehaviour
                 break;
         }
 
-        dc = new Dialogur("Episode" + condition);
+        dc = new Dialogur("Episode" + condition); //讀取完後使用這個物件完成整個方法
         content = GameObject.Find("content").GetComponent<Text>();
 
         InvokeRepeating("dialogue", 0, 0.02f);

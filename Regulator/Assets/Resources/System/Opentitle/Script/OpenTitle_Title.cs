@@ -28,7 +28,7 @@ public class OpenTitle_Title : MonoBehaviour
         if (count == 2)
             init();
         else
-            control(count);
+            control(count); 
     }
 
     void init() // 打開開始畫面
@@ -55,12 +55,12 @@ public class OpenTitle_Title : MonoBehaviour
             buffer_color.a -= 0.0075f;
             if (buffer_color.a <= 0 && Time.time > 5.5)
             {
-                
+                //背景漸漸變白
                 back.r += 0.003f;
                 back.g += 0.003f;
                 back.b += 0.003f;
                 background.color = back;
-                if (back.r >= 1f)
+                if (back.r >= 1f) //全白跳出LOGO
                 {
                     this.count = 2;
                     Destroy(image.gameObject);

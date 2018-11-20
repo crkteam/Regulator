@@ -28,7 +28,7 @@ public class Dialogur
     private void setname()
     {
         string[] name = data[0].Split(';');
-
+    
         for (int i = 0; i < name.Length; i++)
         {
             character.Add(name[i]);
@@ -42,9 +42,10 @@ public class Dialogur
 
     public string getText()
     {
-        string[] content = data[count].Split(':');
-        int name = int.Parse(content[0]);
-        string buffer = character[name] + ":" + content[1];
+
+        string[] content = data[count].Split(':');  //分割後0代表角色1代表句子
+        int name = int.Parse(content[0]); //將角色轉成代碼丟入name 
+        string buffer = character[name] + ":" + content[1]; //name丟入charater即可讀出是哪個角色
 
         return buffer;
     }
@@ -56,7 +57,8 @@ public class Dialogur
 
     public bool check()
     {
-        if (count != data.Count)
+        
+        if (count != data.Count) //檢測是否到底
             return true;
 
         return false;

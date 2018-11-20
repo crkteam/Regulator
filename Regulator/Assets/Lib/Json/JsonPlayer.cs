@@ -14,7 +14,7 @@ public class JsonPlayer : BaseJson
     public int getStage()
     {
         string data = load("MyPlayer");
-        player = JsonUtility.FromJson<Player>(data);
+        player = JsonUtility.FromJson<Player>(data);  //將json轉入player
 
         return player.stage;
     }
