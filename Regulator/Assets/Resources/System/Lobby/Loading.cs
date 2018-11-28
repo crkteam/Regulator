@@ -19,7 +19,6 @@ public class Loading : MonoBehaviour
 		//開始漸淡
 		Color image = this.image.color;
 		image.a -= 0.035f;
-		Debug.Log(image.a);
 		this.image.color = image;
 		if(image.a<=0){
 				CancelInvoke();

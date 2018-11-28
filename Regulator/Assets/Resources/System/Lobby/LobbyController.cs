@@ -39,9 +39,10 @@ public class LobbyController : MonoBehaviour
     }
 
     void lobby_start()
-    {
+    {   
         dialogue_space.SetActive(true);
-        InvokeRepeating("dialogue", 0, 0.02f);
+        InvokeRepeating("dialogue", 0, 0.03f);
+        Invoke("check",0.1f); //先跑第一句
     }
 
     void dialogue()
