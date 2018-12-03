@@ -5,6 +5,9 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="lib" t="Include">
+          <e p="Fade" t="Include">
+            <e p="FadeController.cs" t="Include" />
+          </e>
           <e p="Json" t="Include">
             <e p="BaseJson.cs" t="Include" />
             <e p="JsonPlayer.cs" t="Include" />
@@ -48,21 +51,11 @@
         </e>
         <e p="Resources" t="Include">
           <e p="System" t="Include">
-            <e p="Dialogue" t="Include">
-              <e p="dialogue_Controller.cs" t="Include" />
-              <e p="Dialogur.cs" t="Include" />
-            </e>
             <e p="KillerScenes" t="Include">
               <e p="MoveController.cs" t="Include" />
-              <e p="test.cs" t="Include" />
-            </e>
-            <e p="Lobby" t="Include">
-              <e p="Loading.cs" t="Include" />
-              <e p="LobbyController.cs" t="Include" />
             </e>
             <e p="Opentitle" t="Include">
               <e p="Script" t="Include">
-                <e p="OpenTitle_Next.cs" t="Include" />
                 <e p="OpenTitle_Title.cs" t="Include" />
                 <e p="OpenTitleController.cs" t="Include" />
               </e>

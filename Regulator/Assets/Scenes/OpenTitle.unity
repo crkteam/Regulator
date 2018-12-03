@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 430343100}
   - component: {fileID: 430343104}
   - component: {fileID: 430343105}
+  - component: {fileID: 430343106}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -207,11 +208,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d35aa6281dadd4fe3972876cb465d97d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 1590705991}
-  title: {fileID: 1896037414}
-  GameLoge: {fileID: 1689943621}
-  background: {fileID: 1949266973}
+  teamlogo: {fileID: 1590705991}
+  bg: {fileID: 1949266973}
+  titlelogo: {fileID: 1689943621}
   start: {fileID: 606369286}
+  fc: {fileID: 430343106}
 --- !u!114 &430343105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221,6 +222,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66862386892bd41a0beaa4c0386fb6cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &430343106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 430343099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a14efbf75ca41888a7ac74e5e97b79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &606369284
@@ -324,7 +336,7 @@ GameObject:
   - component: {fileID: 1391576017}
   - component: {fileID: 1391576016}
   m_Layer: 5
-  m_Name: Scenes
+  m_Name: BlackBG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -360,7 +372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.01886791, g: 0.01886791, b: 0.01886791, a: 1}
+  m_Color: {r: 0.01886791, g: 0.01886791, b: 0.01886791, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -392,7 +404,7 @@ GameObject:
   - component: {fileID: 1590705992}
   - component: {fileID: 1590705991}
   m_Layer: 5
-  m_Name: Logo
+  m_Name: TeamLogo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -460,7 +472,7 @@ GameObject:
   - component: {fileID: 1689943622}
   - component: {fileID: 1689943621}
   m_Layer: 5
-  m_Name: GameLogo
+  m_Name: TitleLogo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -490,7 +502,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1689943619}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -664,6 +676,7 @@ MonoBehaviour:
   title: {fileID: 1689943621}
   background: {fileID: 1949266973}
   start: {fileID: 606369286}
+  flag: 0
 --- !u!1 &1949266971
 GameObject:
   m_ObjectHideFlags: 0
@@ -675,7 +688,7 @@ GameObject:
   - component: {fileID: 1949266974}
   - component: {fileID: 1949266973}
   m_Layer: 5
-  m_Name: Image
+  m_Name: BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -1,25 +1,38 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class OpenTitleController : MonoBehaviour
 {
-    private string Scene;
-    private Dialogur dc;
+    public FadeController fc;
 
-    private JsonPlayer jp; // 統一在這裡管理 接收json
+    public Image BlackBG;
 
     // Use this for initialization
     void Start()
     {
-        jp = new JsonPlayer();
-        if (jp.getLobby() == 0)
+        // step 1
+        // is Title
+        // when title end execute steop2  
+    }
+
+    public void step2()
+    {
+        InvokeRepeating("check", 2, 0.1f);
+    }
+
+    void check()
+    {
+        if (Input.GetKey(KeyCode.Mouse0))
         {
-            GameObject.Find("Start").GetComponent<Text>().text = "開始新遊戲";
+            fc.fadein(BlackBG, 0, 0.01f);
+            Invoke("nextStage", 3);
+            CancelInvoke("check");
         }
-        else
-            GameObject.Find("Start").GetComponent<Text>().text = "繼續遊戲";
+    }
+
+    void nextStage()
+    {
+        SceneManager.LoadScene("KillerScenes");
     }
 }

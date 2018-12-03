@@ -55,6 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Lib\Fade\FadeController.cs" />
     <Compile Include="Assets\Lib\Json\BaseJson.cs" />
     <Compile Include="Assets\Lib\Json\JsonPlayer.cs" />
     <Compile Include="Assets\Lib\Json\Player.cs" />
@@ -72,13 +73,7 @@
     <Compile Include="Assets\Lib\Virtual Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Lib\Virtual Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Lib\Virtual Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
-    <Compile Include="Assets\Resources\System\Dialogue\dialogue_Controller.cs" />
-    <Compile Include="Assets\Resources\System\Dialogue\Dialogur.cs" />
     <Compile Include="Assets\Resources\System\KillerScenes\MoveController.cs" />
-    <Compile Include="Assets\Resources\System\KillerScenes\test.cs" />
-    <Compile Include="Assets\Resources\System\Lobby\Loading.cs" />
-    <Compile Include="Assets\Resources\System\Lobby\LobbyController.cs" />
-    <Compile Include="Assets\Resources\System\Opentitle\Script\OpenTitle_Next.cs" />
     <Compile Include="Assets\Resources\System\Opentitle\Script\OpenTitle_Title.cs" />
     <Compile Include="Assets\Resources\System\Opentitle\Script\OpenTitleController.cs" />
     <None Include="Assets\Lib\Typewriter Custom Styles\Readme.txt" />
