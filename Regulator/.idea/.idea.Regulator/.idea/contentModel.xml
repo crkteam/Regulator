@@ -5,6 +5,9 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="lib" t="Include">
+          <e p="Dialogue" t="Include">
+            <e p="DialogueContorller.cs" t="Include" />
+          </e>
           <e p="Fade" t="Include">
             <e p="FadeController.cs" t="Include" />
           </e>
@@ -50,6 +53,8 @@
           </e>
         </e>
         <e p="Resources" t="Include">
+          <e p="ep1.txt" t="Include" />
+          <e p="ep2.txt" t="Include" />
           <e p="System" t="Include">
             <e p="KillerScenes" t="Include">
               <e p="MoveController.cs" t="Include" />
@@ -62,6 +67,7 @@
             </e>
           </e>
         </e>
+        <e p="test.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
