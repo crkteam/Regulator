@@ -79,8 +79,6 @@
     <Compile Include="Assets\Resources\System\Opentitle\Script\OpenTitleController.cs" />
     <Compile Include="Assets\Test.cs" />
     <None Include="Assets\Lib\Typewriter Custom Styles\Readme.txt" />
-    <None Include="Assets\Resources\ep2.txt" />
-    <None Include="Assets\Resources\ep1.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/crkjk/Desktop/Git/Regulator/Regulator/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

@@ -1,13 +1,10 @@
-﻿
-
-using System.IO;
+﻿using System.IO;
 using UnityEngine;
 
 public class BaseJson
 {
     protected void save(object data, string name)
     {
-        
         StreamWriter file = new StreamWriter(Path.Combine(Application.absoluteURL, name));
         string saveString = JsonUtility.ToJson(data);
         file.Write(saveString);
@@ -24,10 +21,13 @@ public class BaseJson
 
     protected bool check(string name)
     {
-        try {
+        try
+        {
             StreamReader file = new StreamReader(Path.Combine(Application.absoluteURL, name));
             file.Close();
-        }catch(FileNotFoundException e) {
+        }
+        catch (FileNotFoundException e)
+        {
             Debug.Log(e.Message);
             return false;
         }
