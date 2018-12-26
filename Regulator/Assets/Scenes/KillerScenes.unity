@@ -228,6 +228,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a5f7d4443c124d83b4a36ed06dc8de5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &55899346 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1763442885413166, guid: 1a5f7d4443c124d83b4a36ed06dc8de5,
+    type: 2}
+  m_PrefabInternal: {fileID: 55899345}
 --- !u!1 &142546244
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,6 +347,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -369,6 +375,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breatheline: {fileID: 351646566}
   blackbackground: {fileID: 2126798791}
+  a: {fileID: 0}
+  b: {fileID: 0}
+  _shot: {fileID: 519420033}
   joystick: {fileID: 1857748732}
 --- !u!20 &519420031
 Camera:
@@ -420,6 +429,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9738de346be46fdacd492dc868b7cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pc:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  camera: {fileID: 519420031}
+  Lose: {fileID: 0}
+  background: {fileID: 55899346}
 --- !u!1 &797413495
 GameObject:
   m_ObjectHideFlags: 0
