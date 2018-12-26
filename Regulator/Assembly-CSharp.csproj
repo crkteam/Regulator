@@ -76,6 +76,7 @@
     <Compile Include="Assets\Lib\Virtual Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Lib\Virtual Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
     <Compile Include="Assets\Resources\System\KillerScenes\MoveController.cs" />
+    <Compile Include="Assets\Resources\System\KillerScenes\Shot.cs" />
     <Compile Include="Assets\Resources\System\Opentitle\Script\OpenTitle_Title.cs" />
     <Compile Include="Assets\Resources\System\Opentitle\Script\OpenTitleController.cs" />
     <Compile Include="Assets\Test.cs" />
