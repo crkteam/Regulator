@@ -122,6 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 240785850}
   - component: {fileID: 240785851}
+  - component: {fileID: 240785852}
   m_Layer: 0
   m_Name: "SC2\u89D2\u8272-2"
   m_TagString: Untagged
@@ -177,7 +178,7 @@ SpriteRenderer:
   m_SortingLayerID: -749110083
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 472c98bb4f1b07d49a4251740a7b6a43, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 72b99955398e0e647b582bac80d103f1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -187,6 +188,24 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!95 &240785852
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 240785849}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 225335aaff0cdc74e894a8d436f6723f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &288881717
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,6 +537,7 @@ GameObject:
   m_Component:
   - component: {fileID: 941330641}
   - component: {fileID: 941330642}
+  - component: {fileID: 941330643}
   m_Layer: 0
   m_Name: "SC2\u89D2\u8272-1"
   m_TagString: Untagged
@@ -573,7 +593,7 @@ SpriteRenderer:
   m_SortingLayerID: -749110083
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: dcce7bd7279bf874cafea9d1d80cfb89, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a6401a80335683b4fb79f2e6cfb82419, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -583,6 +603,24 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!95 &941330643
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 941330640}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b5fc9ee40edcbc149a035e791f193d4a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1022849844
 GameObject:
   m_ObjectHideFlags: 0
@@ -775,8 +813,8 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
-  orthographic: 1
+  field of view: 20
+  orthographic: 0
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -786,7 +824,7 @@ Camera:
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
-  m_HDR: 1
+  m_HDR: 0
   m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
@@ -800,7 +838,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1251133844}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -130.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -829,7 +867,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1388637244}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 67.89114, y: 62.988556, z: -14.029678}
+  m_LocalPosition: {x: 67.89114, y: 62.988556, z: 1220}
   m_LocalScale: {x: 30.644976, y: 30.644976, z: 30.64498}
   m_Children:
   - {fileID: 1022849845}
@@ -899,6 +937,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1581991036}
   - component: {fileID: 1581991037}
+  - component: {fileID: 1581991038}
   m_Layer: 0
   m_Name: "SC2\u89D2\u8272-3"
   m_TagString: Untagged
@@ -953,8 +992,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -749110083
   m_SortingLayer: 3
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2b07a04c04aebdd428d0f86fc2cfffd1, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: b6b4ba6cdce639e49b65400008d902a8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -964,6 +1003,24 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!95 &1581991038
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1581991035}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d25cf1ba6a19e284dbaaa9fdf3c055de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1601256073
 GameObject:
   m_ObjectHideFlags: 0
@@ -1047,6 +1104,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1882447316}
   - component: {fileID: 1882447317}
+  - component: {fileID: 1882447318}
   m_Layer: 0
   m_Name: "SC2\u89D2\u8272-4"
   m_TagString: Untagged
@@ -1102,7 +1160,7 @@ SpriteRenderer:
   m_SortingLayerID: -749110083
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 33bcce41d9758ce4ba1cf2df4e20a0f6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 06dfd84176efc214a9f16a68d8dcf0d4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1112,6 +1170,24 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!95 &1882447318
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882447315}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f81148a633c815c4cacc5113ed393fe1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2051643357
 GameObject:
   m_ObjectHideFlags: 0
