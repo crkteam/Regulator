@@ -4,6 +4,8 @@
     <LangVersion>4</LangVersion>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_rider_editor_plugin</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_rider_editor_plugin</_FullFrameworkReferenceAssemblyPaths>
     <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
   </PropertyGroup>
   <PropertyGroup>
@@ -55,6 +57,12 @@
     <Reference Include="UnityEditor">
       <HintPath>C:\Program Files\Unity\Editor\Data\Managed/UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>C:\Program Files\Unity\Editor\Data\PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>C:\Program Files\Unity\Editor\Data\PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Lib\Dialogue\DialogueContorller.cs" />
@@ -76,11 +84,8 @@
     <Compile Include="Assets\Lib\Virtual Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Lib\Virtual Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Lib\Virtual Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
-    <Compile Include="Assets\Resources\System\KillerScenes\MoveController.cs" />
-    <Compile Include="Assets\Resources\System\KillerScenes\Shot.cs" />
-    <Compile Include="Assets\Resources\System\Opentitle\Script\OpenTitle_Title.cs" />
-    <Compile Include="Assets\Resources\System\Opentitle\Script\OpenTitleController.cs" />
-    <Compile Include="Assets\Test.cs" />
+    <Compile Include="Assets\Resources\System\Open\Script\OpenTitle_Title.cs" />
+    <Compile Include="Assets\Resources\System\Open\Script\OpenTitleController.cs" />
     <None Include="Assets\Lib\Typewriter Custom Styles\Readme.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/CrkJK/Desktop/Git/Regulator/Regulator/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
@@ -334,14 +339,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>C:\Program Files\Unity\Editor\Data\PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>C:\Program Files\Unity\Editor\Data\PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
 </Project>
