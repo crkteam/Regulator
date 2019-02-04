@@ -86,7 +86,9 @@
     <Compile Include="Assets\Lib\Virtual Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
     <Compile Include="Assets\Resources\System\Open\Script\OpenTitle_Title.cs" />
     <Compile Include="Assets\Resources\System\Open\Script\OpenTitleController.cs" />
+    <Compile Include="Assets\Resources\System\Room\ItemObject\Item.cs" />
     <None Include="Assets\Lib\Typewriter Custom Styles\Readme.txt" />
+    <None Include="Assets\Resources\System\Room\ItemObject\Text\test.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/CrkJK/Desktop/Git/Regulator/Regulator/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
