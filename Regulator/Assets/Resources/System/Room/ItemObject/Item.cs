@@ -10,32 +10,26 @@ public class Item : MonoBehaviour
     public TextAsset item;
     public String[] content;
 
+    public int group;
     private int count;
     // objcet
-    private GameObject itemDialogue;
+    private ItemController itemDialogue;
 
-    // Use this for initialization
+
     void Start()
     {
-        Debug.Log("apple");
-        content = item.text.Split('\n');
-        itemDialogue = GameObject.Find("ItemDialogue");
-        
-        openBlock();
+        group = 0;
+        itemDialogue = GameObject.Find("ItemDialogue").GetComponent<ItemController>();
     }
 
-    void openBlock()
+    public void startDialogue()
     {
-        itemDialogue.SetActive(true);
-    }
-    
-    void startDialogue()
-    {
-        
+        itemDialogue.startDialogue(item,group);
     }
 
     // Update is called once per frame
     void Update()
     {
+        
     }
 }

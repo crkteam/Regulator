@@ -83,8 +83,10 @@
             <e p="Room" t="Include">
               <e p="ItemObject" t="Include">
                 <e p="Item.cs" t="Include" />
+                <e p="ItemController.cs" t="Include" />
                 <e p="Text" t="Include">
-                  <e p="test.txt" t="Include" />
+                  <e p="book.txt" t="Include" />
+                  <e p="computer.txt" t="Include" />
                 </e>
               </e>
             </e>
