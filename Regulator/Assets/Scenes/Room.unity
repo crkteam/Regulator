@@ -1241,7 +1241,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 4900000, guid: b238563471a0e4148b75be9eff0ecf6f, type: 3}
   content: []
-  group: 0
+  group: 1
 --- !u!1 &1903484948
 GameObject:
   m_ObjectHideFlags: 0
